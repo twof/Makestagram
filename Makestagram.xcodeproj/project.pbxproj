@@ -14,6 +14,7 @@
 		248B601A1D1DCA7B004A3DD4 /* PhotoTakingHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 248B60191D1DCA7B004A3DD4 /* PhotoTakingHelper.swift */; };
 		24E942311D23174E006C59A3 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E942301D23174E006C59A3 /* Post.swift */; };
 		24E942351D243266006C59A3 /* PostTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E942341D243266006C59A3 /* PostTableViewCell.swift */; };
+		24E942371D2435E3006C59A3 /* ParseHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E942361D2435E3006C59A3 /* ParseHelper.swift */; };
 		62551B961B06C2F5000913E4 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62551B951B06C2F5000913E4 /* Social.framework */; };
 		62551B981B06C2FD000913E4 /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62551B971B06C2FD000913E4 /* Accounts.framework */; };
 		62551B9A1B06C31F000913E4 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62551B991B06C31F000913E4 /* CoreLocation.framework */; };
@@ -71,6 +72,7 @@
 		248B60191D1DCA7B004A3DD4 /* PhotoTakingHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoTakingHelper.swift; sourceTree = "<group>"; };
 		24E942301D23174E006C59A3 /* Post.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
 		24E942341D243266006C59A3 /* PostTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostTableViewCell.swift; sourceTree = "<group>"; };
+		24E942361D2435E3006C59A3 /* ParseHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParseHelper.swift; sourceTree = "<group>"; };
 		2E1AE507EDD2D18E4D8E4173 /* Pods-Makestagram.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Makestagram.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Makestagram/Pods-Makestagram.debug.xcconfig"; sourceTree = "<group>"; };
 		59ADB1EA49C4CC3C3B60838C /* Pods_MakestagramTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MakestagramTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		62551B951B06C2F5000913E4 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
@@ -225,6 +227,7 @@
 			children = (
 				6277189D1B0A58E800AF5C6E /* ErrorHandling.swift */,
 				6277189E1B0A58E800AF5C6E /* ParseLoginHelper.swift */,
+				24E942361D2435E3006C59A3 /* ParseHelper.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -522,6 +525,7 @@
 				248B600F1D1DC2CA004A3DD4 /* TimelineViewController.swift in Sources */,
 				62C8C1E61B06BD6500DC3EA7 /* AppDelegate.swift in Sources */,
 				627718971B0A581700AF5C6E /* FilterViewController.swift in Sources */,
+				24E942371D2435E3006C59A3 /* ParseHelper.swift in Sources */,
 				24E942351D243266006C59A3 /* PostTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
