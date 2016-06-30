@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		153FDE291DD063FD1A929703 /* Pods_Makestagram.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 837E8DB1140E3C18464FF6A5 /* Pods_Makestagram.framework */; };
+		24038FE71D25CB7400736D7C /* FriendSearchTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24038FE61D25CB7400736D7C /* FriendSearchTableViewCell.swift */; };
 		248B600F1D1DC2CA004A3DD4 /* TimelineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 248B600E1D1DC2CA004A3DD4 /* TimelineViewController.swift */; };
 		248B60111D1DC2E4004A3DD4 /* FriendSearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 248B60101D1DC2E4004A3DD4 /* FriendSearchViewController.swift */; };
 		248B60131D1DC2F1004A3DD4 /* PhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 248B60121D1DC2F1004A3DD4 /* PhotoViewController.swift */; };
@@ -66,6 +67,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		24038FE61D25CB7400736D7C /* FriendSearchTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FriendSearchTableViewCell.swift; sourceTree = "<group>"; };
 		248B600E1D1DC2CA004A3DD4 /* TimelineViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimelineViewController.swift; sourceTree = "<group>"; };
 		248B60101D1DC2E4004A3DD4 /* FriendSearchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FriendSearchViewController.swift; sourceTree = "<group>"; };
 		248B60121D1DC2F1004A3DD4 /* PhotoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoViewController.swift; sourceTree = "<group>"; };
@@ -138,6 +140,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		24038FE31D25A4C800736D7C /* FriendSearch */ = {
+			isa = PBXGroup;
+			children = (
+				24038FE61D25CB7400736D7C /* FriendSearchTableViewCell.swift */,
+			);
+			path = FriendSearch;
+			sourceTree = "<group>";
+		};
 		248B60181D1DCA56004A3DD4 /* PhotoTaking */ = {
 			isa = PBXGroup;
 			children = (
@@ -157,6 +167,7 @@
 		24E942321D24323B006C59A3 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				24038FE31D25A4C800736D7C /* FriendSearch */,
 				24E942331D24323B006C59A3 /* Timeline */,
 			);
 			path = Views;
@@ -523,6 +534,7 @@
 				248B60131D1DC2F1004A3DD4 /* PhotoViewController.swift in Sources */,
 				248B601A1D1DCA7B004A3DD4 /* PhotoTakingHelper.swift in Sources */,
 				248B600F1D1DC2CA004A3DD4 /* TimelineViewController.swift in Sources */,
+				24038FE71D25CB7400736D7C /* FriendSearchTableViewCell.swift in Sources */,
 				62C8C1E61B06BD6500DC3EA7 /* AppDelegate.swift in Sources */,
 				627718971B0A581700AF5C6E /* FilterViewController.swift in Sources */,
 				24E942371D2435E3006C59A3 /* ParseHelper.swift in Sources */,
