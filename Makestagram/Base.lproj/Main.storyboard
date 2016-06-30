@@ -124,6 +124,7 @@
                                 </prototypes>
                                 <connections>
                                     <outlet property="dataSource" destination="REW-ez-RNp" id="zYd-1J-DyX"/>
+                                    <outlet property="delegate" destination="REW-ez-RNp" id="bYo-wg-9KG"/>
                                 </connections>
                             </tableView>
                         </subviews>
