@@ -21,7 +21,6 @@ class PostSectionHeaderView: UITableViewCell {
     
     var post: Post? {
         didSet {
-            var formattedDate = dateFormatter.stringFromDate((post?.createdAt)!)
             if let post = post {
                 usernameLabel.text = post.user?.username
                 postTimeLabel.text = post.createdAt?.shortTimeAgoSinceDate(NSDate()) ?? ""
