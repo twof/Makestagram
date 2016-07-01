@@ -12,7 +12,6 @@ class PostSectionHeaderView: UITableViewCell {
 
     @IBOutlet weak var usernameLabel: UILabel!
     @IBOutlet weak var postTimeLabel: UILabel!
-    var dateFormatter = NSDateFormatter()
     
     
     override func awakeFromNib() {
@@ -22,12 +21,10 @@ class PostSectionHeaderView: UITableViewCell {
     
     var post: Post? {
         didSet {
-            dateFormatter.locale = NSLocale.currentLocale()
-            dateFormatter.dateStyle = NSDateFormatterStyle.LongStyle
             var formattedDate = dateFormatter.stringFromDate((post?.createdAt)!)
             if let post = post {
                 usernameLabel.text = post.user?.username
-                postTimeLabel.text = formattedDate
+                postTimeLabel.text = post.createdAt?.shortTimeAgoSinceDate(NSDate()) ?? ""
             }
         }
     }
